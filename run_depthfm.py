@@ -45,7 +45,7 @@ if "__main__" == __name__:
     parser.add_argument(
         "--checkpoint",
         type=str,
-        default="/node_data/hyoseok/checkpoints/depthfm-v1.ckpt",
+        required=True,
         help="Checkpoint path of depthfm",
     )
     

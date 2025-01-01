@@ -118,7 +118,6 @@ if "__main__" == __name__:
     # rgb_img = transform(rgb_img).unsqueeze(0)[..., 104:, :]
     # sparse_depth_map = transform(sparse_depth_map).unsqueeze(0)[..., 104:, :] / 256.
     # gt_depth_map = transform(gt_depth_map).unsqueeze(0)[..., 104:, :] / 256.
-    
     if args.inference_size is not None: rgb_img = transforms.Resize(args.inference_size)(transform(rgb_img)).unsqueeze(0)
     else: rgb_img = transform(rgb_img).unsqueeze(0)
     sparse_depth_map = transform(sparse_depth_map).unsqueeze(0) / 256.
