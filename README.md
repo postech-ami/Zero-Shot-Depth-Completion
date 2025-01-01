@@ -26,6 +26,14 @@ For [Marigold](https://marigoldmonodepth.github.io/), you can easily use the Hug
 ## Run
 We provide two depth diffusion models, [Marigold](https://marigoldmonodepth.github.io/) and [DepthFM](https://depthfm.github.io/), for zero-shot depth completion. Each model comes with its own dedicated script.
 
+```
+# Marigold base
+sh scripts/run_opt_marigold.sh  
+
+# DepthFM base
+sh scripts/run_opt_depthfm.sh  
+```
+
 Each script consists of two steps:
 1. Generating structure-guided relative depth.
 2. Performing test-time alignment with sparse depth measurements.
