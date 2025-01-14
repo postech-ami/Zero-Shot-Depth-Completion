@@ -53,7 +53,7 @@ We recommend checking the arguments of each Python script for controllability.
 @inproceedings{
 hyoseok2024zeroshot,
 title={Zero-shot Depth Completion via Test-time Alignment with Affine-invariant Depth Prior},
-author={Anonymous},
+author={Lee Hyoseok and Kyeong Seon Kim and Kwon Byung-Ki and Tae-Hyun Oh},
 booktitle={The 39th Annual AAAI Conference on Artificial Intelligence},
 year={2024},
 }
