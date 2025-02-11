@@ -1,7 +1,7 @@
 # Zero-shot Depth Completion via Test-time Alignment with Affine-invariant Depth Prior (AAAI 2025)
 <!-- Authors: [Lee Hyoseok](https://hyoseok1223.github.io/), [Kyeong Seon Kim](https://www.linkedin.com/in/ks-kim/), [Kwon Byung-Ki](https://sites.google.com/view/kwon-byung--ki/%ED%99%88), [Tae-Hyun Oh](https://ami.postech.ac.kr/members/tae-hyun-oh) -->
 
-## [Project Page](https://hyoseok1223.github.io/zero-shot-depth-completion/) | Paper | arXiv | Video
+## [Project Page](https://hyoseok1223.github.io/zero-shot-depth-completion/) | [Paper](https://arxiv.org/abs/2502.06338) | [Video](https://www.youtube.com/watch?v=1-MisfQLKDA)
 
 This repository contains a pytorch implementation of the AAAI 2025 paper, "[Zero-shot Depth Completion via Test-time Alignment with Affine-invariant Depth Prior](https://hyoseok1223.github.io/zero-shot-depth-completion/)". Our zero-shot depth completion method, which aligns sparse depth measurements with affine-invariant depth diffusion model at test-time, demonstrates impressive performance across various domains.
 
